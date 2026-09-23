@@ -1,5 +1,31 @@
-body {
-    background-color: lightgrey;
+html {
+    background-color: skyblue;
+}
+
+header {
+    border-width: 10px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: lightblue;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+main {
+    text-align: center;
+    background-color: rgb(156, 207, 224);
+    border-width: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+ul {
+    text-align: left;
 }
 
 p {
