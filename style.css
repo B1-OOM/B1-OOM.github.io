@@ -16,9 +16,17 @@ header {
     font-size: 30px;
 }
 
-footer {
+ul {
+    text-align: left;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#QuickNavFlex {
     text-align: center;
-    background-color: rgb(76, 127, 146);
+    background-color: rgb(146, 197, 214);
     border-width: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -29,23 +37,32 @@ footer {
     max-width: 700px;
 }
 
-ul {
-    text-align: left;
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(146, 197, 214);
+    gap: 20px;
+    padding: 10px;
 }
 
-p {
-    font-family: 'Times New Roman', Times, serif;
+.nav-link {
+    /* turns the links into buttons */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(136, 187, 204);
+    color: white;
+    text-decoration: none;
 }
 
-#QuickNav {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13px;
+.nav-link:hover {
+    background-color: rgb(126, 187, 194);
 }
 
 #WhoIs {
     text-align: center;
-    background-color: rgb(156, 207, 224);
+    background-color: rgb(126, 177, 194);
     border-width: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -58,7 +75,7 @@ p {
 
 #MainLiterature {
     text-align: center;
-    background-color: rgb(136, 187, 204);
+    background-color: rgb(106, 157, 174);
     border-width: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -71,7 +88,7 @@ p {
 
 #OtherLiterature {
     text-align: center;
-    background-color: rgb(116, 167, 184);
+    background-color: rgb(86, 137, 154);
     border-width: 10px;
     padding: 10px;
     border-radius: 20px;
@@ -84,7 +101,20 @@ p {
 
 #Cinema {
     text-align: center;
-    background-color: rgb(96, 147, 164);
+    background-color: rgb(66, 117, 134);
+    border-width: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(46, 97, 114);
     border-width: 10px;
     padding: 10px;
     border-radius: 20px;
