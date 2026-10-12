@@ -16,6 +16,10 @@ header {
     font-size: 30px;
 }
 
+#HeaderImage {
+    border-radius: 20px;
+}
+
 ul {
     text-align: left;
 }
@@ -153,7 +157,7 @@ p {
     font-weight: bold;
 }
 
-#Bolden {
+.Bolden {
     font-weight: bold;
     font-size: 30px;
 }
