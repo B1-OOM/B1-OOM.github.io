@@ -1,3 +1,7 @@
+/* CSS Document is organized top to bottom like the site. */
+/* Margins should be consistent throughout the webpage to give it a more uniform and intentional appearance */
+/* Padding should be consistent throughout the FlexBox sections of the webpage to give it a more uniform and intentional appearance */
+
 html {
     background-color: skyblue;
 }
